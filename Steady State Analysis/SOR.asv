@@ -1,0 +1,12 @@
+function SOR(T, x, y, nx, ny, tol, error, Told, alpha)
+    
+    %Successive over-relaxtion iteration
+    sor_iter = 1
+    omega=2/(1+sin(2*pi/n));
+    while(error > tol)
+        for i=2:nx-1
+            for i=2:ny-1
+                T(i, j) = ((1-alpha)*(Told(i,j)+(alpha*
+    end
+    
+end
