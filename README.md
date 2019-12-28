@@ -15,3 +15,4 @@ Steady State and Transient Analysis for 2D Heat Conduction Equation
 
 ### So the equation we get is 
 ![equation](https://latex.codecogs.com/svg.latex?T(i,&space;j)&space;=&space;\frac{1}{4}(T_{(i-1,&space;j)}&space;&plus;T_{(i&plus;1,&space;j)}&space;&plus;&space;T_{(i,&space;j-1)}&space;&plus;T_{(i,&space;j&plus;1)}&space;))
+ 
