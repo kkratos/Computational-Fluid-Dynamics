@@ -6,7 +6,7 @@ Steady State and Transient Analysis for 2D Heat Conduction Equation
 
 ### Discretizing the 2D PDE by cnetral differencing method as follows
 ### First with respect to x
-![equation](https://latex.codecogs.com/svg.latex?\frac{\partial^2&space;T}{\partial&space;x^2}&space;=&space;\frac{T_{(i,j-1)}-2T_{(i,j)}&plus;T_{(i&plus;1,&space;j)}}{\Delta&space;x^{2}})
+![equation](https://latex.codecogs.com/svg.latex?\frac{\partial^2&space;T}{\partial&space;x^2}&space;=&space;\frac{T_{(i-1,j)}-2T_{(i,j)}&plus;T_{(i&plus;1,&space;j)}}{\Delta&space;x^{2}})
 
 ### With respect to y
-![equation](https://latex.codecogs.com/svg.latex?\frac{\partial^2&space;T}{\partial&space;y^2}&space;=&space;\frac{T_{(i,j-1)}-2T_{(i,j)}&plus;T_{(i&plus;1,&space;j)}}{\Delta&space;y^{2}})
+![equation](https://latex.codecogs.com/svg.latex?\frac{\partial^2&space;T}{\partial&space;y^2}&space;=&space;\frac{T_{(i,j-1)}-2T_{(i,j)}&plus;T_{(i,&space;j&plus;1)}}{\Delta&space;y^{2}})
