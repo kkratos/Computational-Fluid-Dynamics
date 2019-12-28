@@ -10,3 +10,8 @@ Steady State and Transient Analysis for 2D Heat Conduction Equation
 
 ### With respect to y
 ![equation](https://latex.codecogs.com/svg.latex?\frac{\partial^2&space;T}{\partial&space;y^2}&space;=&space;\frac{T_{(i,j-1)}-2T_{(i,j)}&plus;T_{(i,&space;j&plus;1)}}{\Delta&space;y^{2}})
+
+### Since nx = ny we can take ![equation](https://latex.codecogs.com/svg.latex?\Delta&space;x^{2}&space;=&space;\Delta&space;y^{2})
+
+### So the equation we get is 
+![equation](https://latex.codecogs.com/svg.latex?T(i,&space;j)&space;=&space;\frac{1}{4}(T_{(i-1,&space;j)}&space;&plus;T_{(i&plus;1,&space;j)}&space;&plus;&space;T_{(i,&space;j-1)}&space;&plus;T_{(i,&space;j&plus;1)}&space;))
